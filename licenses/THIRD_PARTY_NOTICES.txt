@@ -1,0 +1,66 @@
+﻿SES Scan Analyzer に同梱しているソフトウェアと、そのライセンス
+
+SESScanAnalyzer.exe とそのフォルダ（_internal）は PyInstaller で作成したもので、次のソフトウェアを含みます。
+各ライセンスの全文は記載のフォルダにあります（PACKAGES.txt はビルド環境の全パッケージの一覧で、
+pip・setuptools・PyInstaller の補助パッケージなどビルドにだけ使ったものも含みます）。
+
+Python 3.14.7
+    ライセンス: PSF License Agreement
+    全文: licenses/Python-3.14.7-LICENSE.txt
+Qt for Python（PySide6）と Qt ライブラリ 6.11.2
+    ライセンス: LGPL-3.0（全文：licenses/LGPL-3.0.txt、licenses/GPL-3.0.txt）
+    全文: licenses/PySide6_Essentials-6.11.2/
+shiboken6 6.11.2
+    ライセンス: LGPL-3.0
+    全文: licenses/shiboken6-6.11.2/
+NumPy 2.5.3
+    ライセンス: BSD-3-Clause ほか（同梱コンポーネントの表示を含む）
+    全文: licenses/numpy-2.5.3/
+SciPy 1.18.1
+    ライセンス: BSD-3-Clause（同梱コンポーネントの表示を含む）
+    全文: licenses/scipy-1.18.1/
+Matplotlib 3.11.2
+    ライセンス: Matplotlib License（PSF 型）
+    全文: licenses/matplotlib-3.11.2/
+ContourPy 1.4.0
+    ライセンス: BSD-3-Clause
+    全文: licenses/contourpy-1.4.0/
+Cycler 0.12.1
+    ライセンス: BSD-3-Clause
+    全文: licenses/cycler-0.12.1/
+fontTools 4.66.1
+    ライセンス: MIT
+    全文: licenses/fonttools-4.66.1/
+Kiwi 1.5.1
+    ライセンス: BSD-3-Clause
+    全文: licenses/kiwisolver-1.5.1/
+packaging 26.3
+    ライセンス: Apache-2.0 または BSD-2-Clause
+    全文: licenses/packaging-26.3/
+Pillow 12.3.0
+    ライセンス: MIT-CMU（HPND）
+    全文: licenses/pillow-12.3.0/
+pyparsing 3.3.3
+    ライセンス: MIT
+    全文: licenses/pyparsing-3.3.3/
+python-dateutil 2.9.0.post0
+    ライセンス: Apache-2.0 / BSD-3-Clause
+    全文: licenses/python-dateutil-2.9.0.post0/
+six 1.17.0
+    ライセンス: MIT
+    全文: licenses/six-1.17.0/
+PyInstaller（ブートローダー） 6.22.3
+    ライセンス: GPL-2.0（ブートローダー例外付き。作成したアプリの配布は制限されない）
+    全文: licenses/pyinstaller-6.22.3/
+
+■ Qt と Qt for Python（LGPL-3.0）について
+Qt 6.11.2 と Qt for Python（PySide6、shiboken6）6.11.2 は、GNU Lesser General Public License v3 で利用しています。
+Qt のライブラリは、改変せずに個別の DLL としてアプリのフォルダ（_internal\PySide6）に置いており、
+利用者が互換性のある版に差し替えることができます。利用規約（LICENSE.txt）第3条のとおり、
+これらのライブラリの改変・差し替えと、そのデバッグに必要なリバースエンジニアリングは禁止していません。
+ソースコードの入手先：
+    Qt 6.11.2: https://download.qt.io/official_releases/qt/6.11/6.11.2/
+    Qt for Python 6.11.2: https://download.qt.io/official_releases/QtForPython/pyside6/PySide6-6.11.2-src/
+Qt が内部で使っている第三者のコンポーネントとそのライセンスは、次のページにまとめられています。
+    https://doc.qt.io/qt-6/licenses-used-in-qt.html
+詳しくは licenses/README.txt も参照してください。

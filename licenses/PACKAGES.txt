@@ -1,0 +1,27 @@
+Python packages of the build environment and their license files.
+The application bundles the run-time libraries among them (numpy, SciPy, matplotlib,
+PySide6/shiboken6, Pillow, ...); pip, setuptools, PyInstaller and its helpers are build tools
+(PyInstaller only contributes its bootloader, under the GPL with a special exception).
+
+altgraph 0.17.5  [MIT]  (1 file(s))
+contourpy 1.4.0  [BSD-3-Clause]  (1 file(s))
+cycler 0.12.1  [Copyright (c) 2015, matplotlib project]  (1 file(s))
+fonttools 4.66.1  [MIT]  (2 file(s))
+kiwisolver 1.5.1  [=========================]  (1 file(s))
+matplotlib 3.11.2  [License agreement for matplotlib versions 1.3.0 and later]  (1 file(s))
+numpy 2.5.3  [BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0]  (17 file(s))
+packaging 26.3  [Apache-2.0 OR BSD-2-Clause]  (3 file(s))
+pefile 2024.8.26  [MIT]  (1 file(s))
+pillow 12.3.0  [MIT-CMU]  (1 file(s))
+pip 26.2.1  [MIT]  (22 file(s))
+pyinstaller 6.22.3  [GPLv2-or-later with a special exception which allows to use PyInstaller to build]  (1 file(s))
+pyinstaller-hooks-contrib 2026.8  []  (1 file(s))
+pyparsing 3.3.3  [MIT]  (1 file(s))
+PySide6_Essentials 6.11.2  [LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only]  (1 file(s))
+python-dateutil 2.9.0.post0  [Dual License]  (1 file(s))
+pywin32-ctypes 0.2.3  [BSD-3-Clause]  (1 file(s))
+scipy 1.18.1  [Copyright (c) 2001-2002 Enthought, Inc. 2003, SciPy Developers.]  (1 file(s))
+setuptools 84.0.0  [MIT]  (15 file(s))
+shiboken6 6.11.2  [LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only]  (1 file(s))
+six 1.17.0  [MIT]  (1 file(s))
+Python 3.14.7  [PSF-2.0]
